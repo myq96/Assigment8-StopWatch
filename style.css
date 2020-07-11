@@ -1,0 +1,334 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+  }
+
+.body{
+    margin-top: 100px;
+}
+
+.img{
+    width: 5%;
+    height: 5%;
+    margin: 0px  47%;
+    
+}
+
+.stopwatch{
+    text-align: center;
+    margin: 10px auto;
+    font-size: 42px;
+}
+
+.numbers {
+    margin-left: 400px;
+    
+}
+
+#days, #hours, #minutes, #seconds, #miliseconds{
+    margin-left: 15px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span{
+    margin: 0 8px;
+    font-size: 40px;
+    color: rgb(88, 88, 88);
+}
+
+.counter{
+    margin-left: 400px;
+}
+
+.time {
+    margin-left: 25px;
+    font-size: 10px;
+}
+
+.min{
+    margin-right: 7px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn{
+    margin-right: 10px;
+}
+
+.table{
+    margin: 50px 150px;
+    text-align: center;
+    border: none;
+}
+
+ol {
+    margin-left:350px;
+    margin-top: 50px;
+    z-index: -1;
+}
+
+li {
+    
+    font-weight: bolder;
+}
+
+/**
+* ------------------------------------------
+*  Responsive Grid Media Queries - 1280, 1024, 768, 480
+*   1280-1024   - desktop (default grid)
+*   1024-768    - tablet landscape
+*   768-480     - tablet 
+*   480-less    - phone landscape & smaller
+* --------------------------------------------
+*/
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .body{
+        margin-top: 50px;
+    }
+    
+    .stopwatch{
+        text-align: center;
+        margin: 10px auto;
+        font-size: 50px;
+    }
+    
+    .numbers {
+        margin-left: 300px;
+        
+    }
+    
+    #days, #hours, #minutes, #seconds, #miliseconds{
+        margin-left: 5px;
+        font-size: 72px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    span{
+        margin: 0 15px;
+        font-size: 55px;
+        color: rgb(88, 88, 88);
+    }
+    
+    .counter{
+        margin-left: 300px;
+    }
+    
+    .time {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    
+    .min{
+        margin-right: 20px;
+    }
+    
+    .button {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .btn{
+        margin-right: 10px;
+    }
+    
+  
+    ol {
+        margin-left:2px;
+        margin-top: 50px;
+        font-size: 22px;
+        z-index: -1;
+    }
+ }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .body{
+        margin-top: 50px;
+    }
+    
+    .stopwatch{
+        text-align: center;
+        margin: 10px auto;
+        font-size: 40px;
+    }
+    
+    .numbers {
+        margin-left: 200px;
+        
+    }
+    
+    #days, #hours, #minutes, #seconds, #miliseconds{
+        margin-left: 10px;
+        font-size: 42px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    span{
+        margin: 0 5px;
+        font-size: 35px;
+        color: rgb(88, 88, 88);
+    }
+    
+    .counter{
+        margin-left: 200px;
+    }
+    
+    .time {
+        margin-left: 10px;
+        margin-right: 20px;
+        font-size: 6px;
+    }
+    
+    .min{
+        margin-right: 20px;
+    }
+    
+    .button {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .btn{
+        margin-right: 10px;
+    }
+    
+  
+    ol {
+        margin-left:2px;
+        margin-top: 50px;
+        font-size: 22px;
+        z-index: -1;
+    }
+
+ }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    
+    .body{
+        margin-top: 50px;
+    }
+    
+    .stopwatch{
+        text-align: center;
+        margin: 10px auto;
+        font-size: 36px;
+    }
+    
+    .numbers {
+        margin-left: 120px;
+        
+    }
+    
+    #days, #hours, #minutes, #seconds, #miliseconds{
+        margin-left: 10px;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    span{
+        margin: 0 5px;
+        font-size: 35px;
+        color: rgb(88, 88, 88);
+    }
+    
+    .counter{
+        margin-left: 120px;
+    }
+    
+    .time {
+        margin-left: 10px;
+        margin-right: 20px;
+        font-size: 6px;
+    }
+    
+    .min{
+        margin-right: 20px;
+    }
+    
+    .button {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .btn{
+        margin-right: 10px;
+    }
+    
+  
+    ol {
+        margin-left:2px;
+        margin-top: 50px;
+        font-size: 22px;
+        z-index: -1;
+    }
+ }
+
+@media all and (max-width: 480px) { 
+
+    .body{
+        margin-top: 100px;
+    }
+    
+    .stopwatch{
+        text-align: center;
+        margin: 10px auto;
+        font-size: 26px;
+    }
+    
+    .numbers {
+        margin-left: 50px;
+        
+    }
+    
+    #days, #hours, #minutes, #seconds, #miliseconds{
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    span{
+        margin: 0 8px;
+        font-size: 15px;
+        color: rgb(88, 88, 88);
+    }
+    
+    .counter{
+        margin-left: 50px;
+    }
+    
+    .time {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 6px;
+    }
+    
+    .min{
+        margin-right: 8px;
+    }
+    
+    .button {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .btn{
+        margin-right: 10px;
+    }
+    
+  
+    ol {
+        margin-left:2px;
+        margin-top: 50px;
+        font-size: 12px;
+        z-index: -1;
+    }
+}
